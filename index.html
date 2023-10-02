@@ -1,0 +1,22 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content">
+      <form class="form">
+        <input id="width" type="number" maxlength="4" placeholder="Width" class="form-control">
+        <span class="cross">x</span>
+        <input id="height" type="number" maxlength="4" placeholder="Height" class="form-control">
+        <button id="btn" type="submit" class="btn">Calculate</button>
+      </form>
+      <div class="result">
+        <span id="calculation">...</span>
+        <button class="btn" id="copyResult">Copy</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

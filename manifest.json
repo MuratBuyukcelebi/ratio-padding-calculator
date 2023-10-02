@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Ratio Padding Calculator v123123",
+  "description": "Ratio Padding Calculator for FE developers",
+  "version": "1.5",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "favicon.png"
+  }
+}
