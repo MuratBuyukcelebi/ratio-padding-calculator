@@ -1,6 +1,7 @@
 body {
   margin: 16px;
   font-family: 'Inter', sans-serif;
+  background: #A7F3D0;
 }
 
 .content {
@@ -24,6 +25,8 @@ body {
   font-size: 16px;
   width: 100%;
   flex: 1;
+  background: #fff;
+  outline: none;
 }
 .btn {
   height: 32px;
@@ -62,6 +65,7 @@ body {
   width: 100%;
   flex: 1;
   box-sizing: border-box;
+  background: #fff;
 }
 
 .result > span {
